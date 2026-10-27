@@ -1468,7 +1468,7 @@ body {
   width: 100%;
   aspect-ratio: 0.69;
   margin: 0;
-  overflow: hidden;
+  overflow: visible;
   background: transparent;
 }
 
@@ -2778,3 +2778,18 @@ body {
     padding-bottom: 8rem;
   }
 }
+
+/* Real video editing projects */
+.editing-project-group { margin-top: 2.5rem; }
+.editing-project-group > h4 { font-family: var(--font-heading, inherit); font-size: clamp(1.1rem, 2vw, 1.5rem); margin: 0 0 1rem; }
+.editing-project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: start; }
+.editing-real-card { aspect-ratio: 9 / 16; max-height: 680px; background: #101016; }
+@media (min-width: 1000px) { .editing-group-cinematic .editing-project-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .editing-project-grid { gap: .75rem; } .editing-project-group { margin-top: 1.75rem; } }
+
+/* Ground each transparent jar with a soft contact shadow at its actual base. */
+.product-gallery-card { position: relative; isolation: isolate; --jar-base: 6.6%; --jar-center: 58%; }
+.product-gallery-card:nth-child(2) { --jar-base: 14%; --jar-center: 35.5%; }
+.product-gallery-card:nth-child(3) { --jar-base: 17%; --jar-center: 37%; }
+.product-gallery-card::before { content: ""; position: absolute; left: var(--jar-center); bottom: var(--jar-base); width: 58%; height: 4.5%; transform: translate(-50%, 48%); background: radial-gradient(ellipse at center, rgb(0 0 0 / 30%) 0%, rgb(0 0 0 / 15%) 35%, rgb(0 0 0 / 4%) 58%, transparent 74%); filter: blur(2px); pointer-events: none; z-index: 0; }
+.product-gallery-card img { position: relative; z-index: 1; }

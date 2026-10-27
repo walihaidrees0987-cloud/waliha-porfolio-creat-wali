@@ -19,6 +19,8 @@ export default function LazyVideo({
   muted = true,
   playsInline = true,
   type = "video/mp4",
+  controls = false,
+  objectFit = "cover",
 }) {
   const videoRef = useRef(null);
   const containerRef = useRef(null);
@@ -84,7 +86,7 @@ export default function LazyVideo({
             inset: 0,
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            objectFit,
             display: "block",
             transition: "opacity 0.4s ease-out",
             opacity: isPlaying ? 0 : 1,
@@ -102,6 +104,7 @@ export default function LazyVideo({
         aria-label={ariaLabel}
         autoPlay={inView}
         muted={muted}
+        controls={controls}
         loop={loop}
         playsInline={playsInline}
         preload={inView ? "auto" : "none"}
@@ -114,7 +117,7 @@ export default function LazyVideo({
         style={{
           width: "100%",
           height: "100%",
-          objectFit: "cover",
+          objectFit,
           display: "block",
           position: "relative",
           zIndex: 0,

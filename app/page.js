@@ -3,6 +3,8 @@
 import { useEffect } from "react";
 import { SiteHeader, SiteFooter } from "./SiteChrome";
 import LazyVideo from "./LazyVideo";
+import { EDITING_VIDEO_GROUPS } from "./data/editing-videos";
+import { SOCIAL_CREATIVE_VIDEOS } from "./data/social-videos";
 import { CLOUDINARY_ASSETS, PORTFOLIO_VIDEOS } from "../lib/cloudinary";
 
 export default function Home() {
@@ -304,37 +306,23 @@ export default function Home() {
             <h3>VIDEO EDITING</h3>
           </div>
 
-          <div className="video-showcase">
+          <div className="video-showcase real-editing-showcase">
             <div className="video-showcase-intro">
-              <h4>AI <span>×</span> EDITING <span>×</span> SOUND</h4>
-              <p>
-                <strong>Note:</strong> AI was integrated into the creative workflow, while the final videos were further developed through professional <b>editing, compositing, motion design</b> and <b>sound design</b> using <b>Adobe Premiere Pro, After Effects</b> and other industry-standard tools.
-              </p>
+              <h4>EDITING <span>×</span> STORYTELLING <span>×</span> SOUND</h4>
+              <p>A selection of my podcast edits, product ads and cinematic projects.</p>
             </div>
-
-            <div className="portfolio-video-grid portfolio-video-grid-top">
-              {PORTFOLIO_VIDEOS.editing.slice(0, 3).map((item) => (
-                <div key={item.id} className={`portfolio-video-card ${item.className}`}>
-                  <LazyVideo
-                    src={item.src}
-                    poster={item.poster}
-                    ariaLabel={item.label}
-                  />
+            {EDITING_VIDEO_GROUPS.map((group) => (
+              <section key={group.id} className={`editing-project-group editing-group-${group.id}`} aria-labelledby={`editing-${group.id}`}>
+                <h4 id={`editing-${group.id}`}>{group.title}</h4>
+                <div className="editing-project-grid">
+                  {group.videos.map((item) => (
+                    <div key={item.id} className="portfolio-video-card editing-real-card">
+                      <LazyVideo src={item.src} ariaLabel={item.label} controls objectFit="contain" />
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-
-            <div className="portfolio-video-grid portfolio-video-grid-bottom">
-              {PORTFOLIO_VIDEOS.editing.slice(3, 7).map((item) => (
-                <div key={item.id} className={`portfolio-video-card ${item.className}`}>
-                  <LazyVideo
-                    src={item.src}
-                    poster={item.poster}
-                    ariaLabel={item.label}
-                  />
-                </div>
-              ))}
-            </div>
+              </section>
+            ))}
           </div>
         </section>
 
@@ -371,6 +359,8 @@ export default function Home() {
                   src={item.src}
                   poster={item.poster}
                   ariaLabel={item.label}
+                  controls={item.controls}
+                  objectFit="contain"
                 />
               </div>
             ))}
@@ -383,6 +373,8 @@ export default function Home() {
                   src={item.src}
                   poster={item.poster}
                   ariaLabel={item.label}
+                  controls={item.controls}
+                  objectFit="contain"
                 />
               </div>
             ))}
@@ -399,12 +391,13 @@ export default function Home() {
               <h2>CREATIVES</h2>
             </div>
 
-            {PORTFOLIO_VIDEOS.social.map((item) => (
+            {SOCIAL_CREATIVE_VIDEOS.map((item) => (
               <div key={item.id} className="social-video-card">
                 <LazyVideo
                   src={item.src}
-                  poster={item.poster}
                   ariaLabel={item.label}
+                  controls
+                  objectFit="contain"
                 />
               </div>
             ))}
@@ -425,7 +418,7 @@ export default function Home() {
 
           <img
             src={CLOUDINARY_ASSETS.artworks.productDesignArtwork}
-            alt="MangoFizz beverage packaging design with illustrated creator"
+            alt="Black Crown tea jar with creamy doodh patti milk tea, tea leaves and illustrated creator"
             className="product-design-artwork"
           />
         </section>
