@@ -1,0 +1,149 @@
+{
+  "/videos/motion/vlog-cinematic.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098436/waliha-portfolio/videos/motion/vlog-cinematic-a7ca544caf.mp4",
+    "public_id": "waliha-portfolio/videos/motion/vlog-cinematic-a7ca544caf",
+    "resource_type": "video",
+    "bytes": 1505240,
+    "hash": "a7ca544cafb6b501376e26b4dfcdea7ff2a4182c7ed393a1d6a9023594cba9aa"
+  },
+  "/videos/motion/bmw-car-edit.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098437/waliha-portfolio/videos/motion/bmw-car-edit-0aca844db6.mp4",
+    "public_id": "waliha-portfolio/videos/motion/bmw-car-edit-0aca844db6",
+    "resource_type": "video",
+    "bytes": 4487386,
+    "hash": "0aca844db615dcdc25a3633a8302b3e8b32ceae523e68f5775255d82406fcfe7"
+  },
+  "/images/products/tea-jar-doodh-patti.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1793098444/waliha-portfolio/artworks/tea-jar-doodh-patti-2768812e96.png",
+    "public_id": "waliha-portfolio/artworks/tea-jar-doodh-patti-2768812e96",
+    "resource_type": "image",
+    "bytes": 2379643,
+    "hash": "2768812e96e1660a5bef292583a88da9112f42ad52603f44625780fb143ec2e4"
+  },
+  "/videos/motion/bmw-car-edit-2.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098450/waliha-portfolio/videos/motion/bmw-car-edit-2-a56cb65518.mp4",
+    "public_id": "waliha-portfolio/videos/motion/bmw-car-edit-2-a56cb65518",
+    "resource_type": "video",
+    "bytes": 921449,
+    "hash": "a56cb65518ee84b5fa005b30090567314b77e3fc634dfdbba3623ca786475992"
+  },
+  "/videos/motion/waliha-travel-edit.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098453/waliha-portfolio/videos/motion/waliha-travel-edit-f13f983d20.mp4",
+    "public_id": "waliha-portfolio/videos/motion/waliha-travel-edit-f13f983d20",
+    "resource_type": "video",
+    "bytes": 2627849,
+    "hash": "f13f983d2042314f49c980ed3686a77711abd4cfe55d232bf88469b4054dda37"
+  },
+  "/images/products/jar-big.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1793098462/waliha-portfolio/products/jar-big-dfa7019803.png",
+    "public_id": "waliha-portfolio/products/jar-big-dfa7019803",
+    "resource_type": "image",
+    "bytes": 435602,
+    "hash": "dfa70198033dac928be7299b53b68db63b6666ab2684489bfafbd510b0ca6e52"
+  },
+  "/videos/editing/gang-video-2.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098462/waliha-portfolio/videos/motion/gang-video-2-8cfa1dbca3.mp4",
+    "public_id": "waliha-portfolio/videos/motion/gang-video-2-8cfa1dbca3",
+    "resource_type": "video",
+    "bytes": 4410694,
+    "hash": "8cfa1dbca382bbe70ce90c8fd6b4e86433c064955b6562ea33d969ed779085a9"
+  },
+  "/images/products/jar-small.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1793098465/waliha-portfolio/products/jar-small-d6654f2afd.png",
+    "public_id": "waliha-portfolio/products/jar-small-d6654f2afd",
+    "resource_type": "image",
+    "bytes": 213966,
+    "hash": "d6654f2afd61589287e72139df8a0032f0de6f2a5efd803632543cb062ba57c7"
+  },
+  "/images/products/jar-medium.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1793098466/waliha-portfolio/products/jar-medium-fb760e84bf.png",
+    "public_id": "waliha-portfolio/products/jar-medium-fb760e84bf",
+    "resource_type": "image",
+    "bytes": 339366,
+    "hash": "fb760e84bfd7ade8fbc1b95f8963af713c01beda887b596b1cd00d4d532ebefe"
+  },
+  "/videos/editing/podcast-01.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098477/waliha-portfolio/videos/editing/podcast-01-d4e5286fea.mp4",
+    "public_id": "waliha-portfolio/videos/editing/podcast-01-d4e5286fea",
+    "resource_type": "video",
+    "bytes": 4166861,
+    "hash": "d4e5286feacd77d54df84e60368b2ec495eab721b78c63a392efcdecf2abf02d"
+  },
+  "/videos/editing/product-01.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098487/waliha-portfolio/videos/editing/product-01-d2eb9904dd.mp4",
+    "public_id": "waliha-portfolio/videos/editing/product-01-d2eb9904dd",
+    "resource_type": "video",
+    "bytes": 1487146,
+    "hash": "d2eb9904dd35a75a65e073941b5b8c34d27e924a674f47ff55d9e2f079264cbb"
+  },
+  "/videos/editing/podcast-02.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098492/waliha-portfolio/videos/editing/podcast-02-6a79c4e785.mp4",
+    "public_id": "waliha-portfolio/videos/editing/podcast-02-6a79c4e785",
+    "resource_type": "video",
+    "bytes": 2419044,
+    "hash": "6a79c4e785369a3fd323548a7c5189148e7442085c895f5baf7363fbedb021aa"
+  },
+  "/videos/editing/product-02.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098493/waliha-portfolio/videos/editing/product-02-90e891dcb7.mp4",
+    "public_id": "waliha-portfolio/videos/editing/product-02-90e891dcb7",
+    "resource_type": "video",
+    "bytes": 772302,
+    "hash": "90e891dcb758f87c4e511b2d5ef8c8dcf4636e71513327d1d209fe37bcccf08e"
+  },
+  "/videos/editing/cinematic-02.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098521/waliha-portfolio/videos/editing/cinematic-02-b494bfcaec.mp4",
+    "public_id": "waliha-portfolio/videos/editing/cinematic-02-b494bfcaec",
+    "resource_type": "video",
+    "bytes": 12070410,
+    "hash": "b494bfcaecbe5566c209f64a7180ff60c0bae1cb7130338f3cbca4b5c0fde444"
+  },
+  "/videos/editing/waliha-intro.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098521/waliha-portfolio/videos/motion/waliha-intro-7423fcfb09.mp4",
+    "public_id": "waliha-portfolio/videos/motion/waliha-intro-7423fcfb09",
+    "resource_type": "video",
+    "bytes": 15471039,
+    "hash": "7423fcfb09e5d6109e7b378e3a2ca63223d068e6534c760a3a917edaad611729"
+  },
+  "/videos/editing/cinematic-03.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098533/waliha-portfolio/videos/editing/cinematic-03-fc6668d322.mp4",
+    "public_id": "waliha-portfolio/videos/editing/cinematic-03-fc6668d322",
+    "resource_type": "video",
+    "bytes": 7174566,
+    "hash": "fc6668d322c45dbdea75a04409216ec6d71d983c896541333276ba289c699546"
+  },
+  "/videos/social/social-creative-01.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098537/waliha-portfolio/videos/social/social-creative-01-c6ee9649f1.mp4",
+    "public_id": "waliha-portfolio/videos/social/social-creative-01-c6ee9649f1",
+    "resource_type": "video",
+    "bytes": 1382657,
+    "hash": "c6ee9649f1ab5aaa747049c42257ce857604bb3f5e350a7e7f2d26b31d4aa13d"
+  },
+  "/videos/editing/cinematic-04.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098537/waliha-portfolio/videos/editing/cinematic-04-d5e3f056bb.mp4",
+    "public_id": "waliha-portfolio/videos/editing/cinematic-04-d5e3f056bb",
+    "resource_type": "video",
+    "bytes": 2285835,
+    "hash": "d5e3f056bbd936534cd9e14eb5c1f490760229ae07d16880186f7e832dc32d5d"
+  },
+  "/videos/editing/cinematic-01.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098538/waliha-portfolio/videos/editing/cinematic-01-628f8b91bf.mp4",
+    "public_id": "waliha-portfolio/videos/editing/cinematic-01-628f8b91bf",
+    "resource_type": "video",
+    "bytes": 9602777,
+    "hash": "628f8b91bf0309bf38e23a966952cefbba188cc3941e869fb29f33cea9bc77bc"
+  },
+  "/videos/social/social-creative-02.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098541/waliha-portfolio/videos/social/social-creative-02-3166f57b74.mp4",
+    "public_id": "waliha-portfolio/videos/social/social-creative-02-3166f57b74",
+    "resource_type": "video",
+    "bytes": 2031248,
+    "hash": "3166f57b74cb2cbd924c01fc317e31c06b09100c32bb4c504c621d7ecd7c9f7a"
+  },
+  "/videos/social/social-creative-03.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1793098546/waliha-portfolio/videos/social/social-creative-03-d7c36d712a.mp4",
+    "public_id": "waliha-portfolio/videos/social/social-creative-03-d7c36d712a",
+    "resource_type": "video",
+    "bytes": 5548855,
+    "hash": "d7c36d712a131be27dc53130ca635ef0bf6311e78afaf205f3fb8c1389dff594"
+  }
+}
